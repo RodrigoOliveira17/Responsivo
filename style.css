@@ -11,3 +11,22 @@
 footer p a {
     margin: 5px 15px;
 }
+
+#caixa1 {
+    background-image: url(img/money.jpg);
+}
+
+.titulo {
+    color: rgb(16, 15, 114);
+    background-color: white;
+    text-transform: uppercase
+}
+
+#home2 {
+    background: white;
+    color:black;
+}
+
+.imagem {
+    
+}
