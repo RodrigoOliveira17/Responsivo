@@ -30,6 +30,7 @@ footer p a {
 #parallax {
     background: url(img/stock.jpg) no-repeat;
     background-attachment: fixed;
+    height: 500px;
     
 }
 
