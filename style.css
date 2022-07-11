@@ -30,7 +30,6 @@ footer p a {
 #parallax {
     background: url(img/stock.jpg) no-repeat;
     background-attachment: fixed;
-    height: 500px;
     
 }
 
@@ -45,4 +44,39 @@ footer p a {
     text-align: center;
     background: white;
     color: blue;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    #parallax {
+        height: 300px;
+       }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   #parallax {
+    height: 300px;
+   }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   #parallax {
+    height: 400px;
+   }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   #parallax {
+    height: 500px;
+   }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+   #parallax {
+    height: 600px;
+   }
 }
