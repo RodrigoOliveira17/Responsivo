@@ -27,6 +27,21 @@ footer p a {
     color:black;
 }
 
-.imagem {
+#parallax {
+    background: url(img/stock.jpg) no-repeat;
+    background-attachment: fixed;
     
+}
+
+#paragrafo {
+    text-align: center;
+    background: white;
+    color: blue;
+    font-size: 15px;
+}
+
+#paragrafo2 {
+    text-align: center;
+    background: white;
+    color: blue;
 }
